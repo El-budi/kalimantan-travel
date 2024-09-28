@@ -1,0 +1,119 @@
+* {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.tittle {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(57, 57, 176);
+}
+
+.subtitle {
+  font-size: 24px;
+  color: #b35e00;
+  position: relative;
+  top: -5px;
+}
+
+.content-wrapper {
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 80px;
+}
+
+.navbar {
+  background-color: #5e5e5e;
+  padding: 17px;
+  margin: 0;
+  height: auto;
+  width: 100%;
+}
+
+.nav-text {
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+
+.car-image {
+  width: 40%;
+  margin: 30px auto;
+  position: relative;
+  top: -10px;
+}
+
+.car-image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.notelp {
+  font-family: sans-serif;
+  position: relative;
+  top: -50px;
+  font-size: 36px;
+  color: rgb(44, 152, 199);
+}
+
+.brand {
+  position: relative;
+  top: -50px;
+  font-size: 28px;
+}
+
+.notelp img {
+  position: relative;
+  bottom: -8px;
+}
+
+.p {
+  position: relative;
+  top: -30px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Warna latar belakang footer */
+  color: white; /* Warna teks footer */
+  text-align: center;
+  padding: 17px;
+}
+
+@media only screen and (max-width: 768px) {
+  .tittle {
+    font-size: 24px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .car-image {
+    width: 80%;
+  }
+
+  .notelp {
+    font-size: 28px;
+  }
+
+  .brand {
+    font-size: 24px;
+  }
+
+  .wa-link {
+    font-size: 16px;
+  }
+
+  footer {
+    padding: 10px;
+    font-size: 14px;
+    bottom: -61px;
+  }
+}
